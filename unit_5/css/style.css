@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css?family=Corben);
+@import url(https://fonts.googleapis.com/css?family=Nobile);
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+/* palette = black #212121, purple #644C73, teal #40989E, lite blue #A1C2CC, lite grey #E7E7E7, yellow # F2EFA4, red #DF504F */
+
+body {
+	background-color: #fff
+	font-size: 16px;/*1em = 16px*/
+	text-align: center;
+	position: relative;
+}
+
+header {
+	padding: 0 200px;
+}
+
+nav{
+	margin: auto;	
+}
+
+main {
+	color:##212121;
+	padding:50px 0;
+}
+
+section {
+	padding:50px 0;
+}
+
+footer {
+	background-color: #212121;
+	text-align: right;
+	font-size: 1em;
+	font-style: italic;
+	padding: 10px 0;
+}
+
+h1 {
+	font-family: 'Corben', cursive;
+	font-weight: normal;
+	font-size: 3.75em;
+	line-height: 1.75em;
+	text-align: center;
+	color: #212121;
+	margin: 200px 0 0;
+}
+
+h2,
+h3,
+h4 {
+	font-family: 'Corben', cursive;
+}
+
+h2 {
+	font-size:2em;
+	line-height: 1.5em;
+}
+
+h3{
+	font-size: 2.25em;
+}
+
+h4 {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+hr{
+	border:none;
+	height:3px;
+	background-color: #212121;
+	width:2em;
+	margin:1em auto;
+}
+
+p {
+	font-family: 'Nobile', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+ul{
+	list-style:none;
+}
+
+li{
+	font-family: 'Nobile', sans-serif;
+}
+
+a{
+	text-decoration:none;
+	color:#000;
+	border-bottom: 1px solid #000;
+	padding-bottom:2px;
+}
+
+img {
+	width: 100%;
+}
+
+.nav-items{
+	font-family: 'Corben', cursive;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	
+
+	padding:20px;
+
+/*	padding-top: 10px;
+	padding-right: 40px;
+	padding-bottom: 20px;
+	padding-left: 40px;*/
+
+	margin: 0 20px;
+    border:none;
+    background-color: purple;
+}
+
+.over-text{
+	padding:20px;
+	margin: 0 20px;
+    border:none;
+    background-color: purple;
+}
+
+.entry{
+ 	width:30em;
+ 	margin:2em auto;
+}
+
+.closer-entry{
+	width:500px;
+	margin:50px auto;
+	padding:20px 0 40px;
+}
+
+.highlight {
+    background:#644C73
+}
+
+#closer{
+	background-color:#644C73;
+	color:#fff;
+}
+
+
+#welcome{
+	background:url(../images/vcr_screen.png) no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:750px;
+	padding:20px;
+}
