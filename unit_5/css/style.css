@@ -16,6 +16,9 @@ body {
 	background-color: #FAFAFA;
 	color:#212121;
 	position: relative;
+	/*Unit 5 Required Styles*/
+	background-color: #FFE2B8;
+	/*Unit 5 Required Styles*/
 }
 
 h1 {
@@ -50,11 +53,20 @@ h4 {
 
 header {
 	margin: auto;
+	/*Unit 5 Required Styles*/
+	background-color: #FFED74;
+    border: 1px black solid;
+    /*Unit 5 Required Styles*/
+
 }
 
 nav{
 	text-align: center;
-	border-bottom: 1px solid #212121;
+	/*border-bottom: 1px solid #212121;*/
+	/*Unit 5 Required Styles*/
+	background-color: #E8C66A;
+    border: 1px black solid;
+    /*Unit 5 Required Styles*/
 }
 
 main {
@@ -64,12 +76,20 @@ main {
 
 article {
 	padding:20px 0;
+	/*Unit 5 Required Styles*/
+	background-color: #E89C6C;
+    border: 1px black solid;
+    /*Unit 5 Required Styles*/
 }
 
 aside {
 	padding: 60px 20px 0 0;
 	float: right;
 	width: 320px;
+	/*Unit 5 Required Styles*/
+	background-color: #FFC675;
+    border: 1px black solid;
+    /*Unit 5 Required Styles*/
 }
 
 footer {
@@ -79,6 +99,10 @@ footer {
 	text-align: center;
 	padding: 10px 0;
 	height: 300px;
+	/*Unit 5 Required Styles*/
+	background-color: #FF957E;
+    border: 1px black solid;
+    /*Unit 5 Required Styles*/
 }
 
 p {
@@ -129,6 +153,10 @@ a{
 .top-bar{
 	background: #81D742;
 	height: 45px;
+	/*Unit 5 Required Styles*/
+	background-color: #FF957E;
+    border: 1px black solid;
+    /*Unit 5 Required Styles*/
 }
 
 .tag{
