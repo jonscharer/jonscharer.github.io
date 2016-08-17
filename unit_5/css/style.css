@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Corben);
-@import url(https://fonts.googleapis.com/css?family=Nobile);
+@import url(https://fonts.googleapis.com/css?family=Oldenburg);
 
 * {
 	padding: 0;
@@ -7,157 +7,171 @@
 	box-sizing:border-box;
 }
 
-/* palette = black #212121, purple #644C73, teal #40989E, lite blue #A1C2CC, lite grey #E7E7E7, yellow # F2EFA4, red #DF504F */
+/* palette = black #212121, pink #D35C86, purple #644C73, teal #40989E, sky blue #82D2E8, green #81D742, pale yellow #F2EFA4, lite grey #E7E7E7*/
 
 body {
-	background-color: #fff
+	font-family: 'Varela Round', sans-serif;
 	font-size: 16px;/*1em = 16px*/
-	text-align: center;
+	line-height: 1.5;
+	background-color: #FAFAFA
+	color:##212121;
 	position: relative;
 }
 
-header {
-	padding: 0 200px;
-}
-
-nav{
-	margin: auto;	
-}
-
-main {
-	color:##212121;
-	padding:50px 0;
-}
-
-section {
-	padding:50px 0;
-}
-
-footer {
-	background-color: #212121;
-	text-align: right;
-	font-size: 1em;
-	font-style: italic;
-	padding: 10px 0;
-}
-
 h1 {
-	font-family: 'Corben', cursive;
-	font-weight: normal;
-	font-size: 3.75em;
-	line-height: 1.75em;
+	font-family: 'Oldenburg', cursive;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 1.125em;
+	letter-spacing: 1.5px;
 	text-align: center;
-	color: #212121;
-	margin: 200px 0 0;
+	color: #81D742;
+	padding: 10px;
+	margin: 10px 20px 60px;
 }
 
 h2,
 h3,
 h4 {
-	font-family: 'Corben', cursive;
+	font-family: 'Varela Round', sans-serif;
 }
 
 h2 {
-	font-size:2em;
-	line-height: 1.5em;
+	font-size:1.5em;
+	line-height: 2em;
+	color: #644C73;
 }
 
 h3{
-	font-size: 2.25em;
+	font-size:1em;
+	color: #82D2E8;
 }
 
 h4 {
-	font-size: 1.5em;
-	text-align: center;
+	font-size:1.125em;
+	text-transform: uppercase;
+	color: #81D742;  
 }
 
-hr{
-	border:none;
-	height:3px;
-	background-color: #212121;
-	width:2em;
-	margin:1em auto;
+header {
+	margin: auto;
+}
+
+nav{
+	text-align: center;
+	border-bottom: 1px solid #212121;
+}
+
+main {
+	width: 720px;
+	float: left;
+}
+
+article {
+	padding:20px 0;
+}
+
+aside {
+	padding: 60px 20px 0 0;
+	float: right;
+	width: 320px;
+}
+
+footer {
+	clear: both;
+	background: #212121;
+	color: #AEAEAE;
+	text-align: center;
+	padding: 10px 0;
+	height: 300px;
 }
 
 p {
-	font-family: 'Nobile', sans-serif;
-	font-size: 1em;
 	line-height: 1.5em;
+	padding: 5px 0;
+	margin: 5px 0;
 }
 
 ul{
 	list-style:none;
 }
 
-li{
-	font-family: 'Nobile', sans-serif;
-}
-
 a{
 	text-decoration:none;
-	color:#000;
-	border-bottom: 1px solid #000;
-	padding-bottom:2px;
-}
-
-img {
-	width: 100%;
+	color: #644C73;
 }
 
 .nav-items{
-	font-family: 'Corben', cursive;
-	color: #fff;
+	font-family: 'Varela Round', sans-serif;
+	color: #644C73;
 	text-transform: uppercase;
 	font-weight: 600;
 	letter-spacing: 2px;
-	
-
-	padding:20px;
-
-/*	padding-top: 10px;
-	padding-right: 40px;
-	padding-bottom: 20px;
-	padding-left: 40px;*/
-
-	margin: 0 20px;
-    border:none;
-    background-color: purple;
+	line-height: 60px;
+	padding: 10px;
+	margin-right: 10px;
 }
 
-.over-text{
-	padding:20px;
+.top-bar-items{
+	font-family: 'Varela Round', sans-serif;
+	color: #559400;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	line-height: 45px;
+	padding: 0 10px;
 	margin: 0 20px;
-    border:none;
-    background-color: purple;
 }
 
 .entry{
- 	width:30em;
+ 	width:40em;
  	margin:2em auto;
 }
 
-.closer-entry{
-	width:500px;
-	margin:50px auto;
-	padding:20px 0 40px;
+.top-bar{
+	background: #81D742;
+	height: 45px;
 }
 
-.highlight {
-    background:#644C73
+.tag{
+	font-size:1em;
+	font-family: 'Varela Round', sans-serif;
+	text-transform: uppercase;
+	display: inline;
+    color: #212121;
+	background: #81D742;  
 }
 
-#closer{
-	background-color:#644C73;
-	color:#fff;
+.footer-links {
+	font-family: 'Varela Round', sans-serif;
+	color: #AEAEAE;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	line-height: 60px;
+	padding: 10px;
+	margin: 10px;
+
 }
 
+#copyright{
+	display: block;
+	font-family: 'Varela Round', sans-serif;
+	font-size: .75em;
+	line-height: 60px;
+}
 
-#welcome{
-	background:url(../images/vcr_screen.png) no-repeat center center scroll;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	height:750px;
-	padding:20px;
+#logo{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 80px;
+}
+
+#footer-logo{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 40px;
+	margin-bottom: 30px;
 }
