@@ -13,7 +13,7 @@ body {
 	font-family: 'Varela Round', sans-serif;
 	font-size: 16px;/*1em = 16px*/
 	line-height: 1.5;
-	/*background-color: #FAFAFA;*/
+	background-color: #FAFAFA;
 	color:#212121;
 	position: relative;
 }
@@ -33,6 +33,7 @@ h1 {
 h2 {
 	font-size:1.5em;
 	line-height: 2em;
+	color: #644C73;
 }
 
 h3{
@@ -57,28 +58,18 @@ nav{
 }
 
 main {
-	max-width: 1080px;
-	margin: auto
+	width: 720px;
+	float: left;
 }
 
 article {
 	padding:20px 0;
 }
 
-article img{
-	width: 100%;
-	max-width: 660px;
-}
-
 aside {
-	padding: 60px 0;
+	padding: 60px 20px 0 0;
 	float: right;
-	width: 30%;
-}
-
-aside img{
-	width: 100%;
-	max-width: 274px;
+	width: 320px;
 }
 
 footer {
@@ -116,7 +107,7 @@ a{
 	letter-spacing: 2px;
 	line-height: 60px;
 	padding: 10px;
-	margin: 0 8px;
+	margin-right: 10px;
 }
 
 .top-bar-items{
@@ -130,10 +121,15 @@ a{
 	margin: 0 20px;
 }
 
-/*.entry{
+.entry{
  	width:40em;
  	margin:2em auto;
-}*/
+}
+
+.top-bar{
+	background: #81D742;
+	height: 45px;
+}
 
 .tag{
 	font-size:1em;
@@ -141,7 +137,7 @@ a{
 	text-transform: uppercase;
 	display: inline;
     color: #212121;
-	background: #81D742;
+	background: #81D742;  
 }
 
 .footer-links {
@@ -154,19 +150,6 @@ a{
 	padding: 10px;
 	margin: 10px;
 
-}
-
-#top-bar{
-	background-color: #81D742;
-	height: 45px;
-}
-
-
-#article-wrapper{
-	width: 60%;
-	float: left;
-	padding:20px;
-	max-width: 700px
 }
 
 #copyright{
@@ -192,5 +175,5 @@ a{
 }
 
 #ad-img{
-	margin: 40px 0;
+	margin: 80px 0;
 }
