@@ -7,11 +7,12 @@
 	box-sizing:border-box;
 }
 
-/* palette = black #212121, pink #D35C86, purple #644C73, teal #40989E, sky blue #82D2E8, green #81D742, pale yellow #F2EFA4, lite grey #E7E7E7*/
+/* palette = black #212121, pink #D35C86, purple #644C73, teal #40989E, sky blue #82D2E8,
+green #81D742, dark green #55B547, pale yellow #F2EFA4, grey  #808080, lite grey #E7E7E7*/
 
 body {
 	font-family: 'Varela Round', sans-serif;
-	font-size: 16px;/*1em = 16px*/
+	font-size: 16px;
 	line-height: 1.5;
 	background-color: #FAFAFA;
 	color:#212121;
@@ -25,7 +26,6 @@ h1 {
 	font-size: 1.125em;
 	letter-spacing: 1.5px;
 	text-align: center;
-	color: #81D742;
 	padding: 10px;
 	margin: 10px 20px 60px;
 }
@@ -33,18 +33,35 @@ h1 {
 h2 {
 	font-size:1.5em;
 	line-height: 2em;
-	color: #644C73;
 }
 
-h3{
+h2 a:link { 
+    color: #212121;
+}
+
+h2 a:visited { 
+    color: #212121;
+}
+
+h2 a:hover { 
+    color: #81D742;
+}
+
+h2 a:active { 
+    color: #212121;
+}
+
+h3 {
 	font-size:1em;
-	color: #82D2E8;
+	color: #808080;
+	text-transform: uppercase;
+	margin-bottom: 5px;
 }
 
 h4 {
-	font-size:1.125em;
-	text-transform: uppercase;
-	color: #81D742;
+	font-size:1.25em;
+	font-weight: 800;
+	color: #212121;
 	line-height: 1.125em;  
 }
 
@@ -52,24 +69,76 @@ header {
 	margin: auto;
 }
 
+header img {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 80px;
+}
+
+header a:link { 
+    font-family: 'Varela Round', sans-serif;
+    color: #55B547;
+	font-size: .90em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 45px;
+	padding: 0 10px;
+	margin: 0 20px;
+}
+
+header a:visited { 
+    color: #55B547;
+}
+
+header a:hover { 
+    color: #FAFAFA;
+}
+
+header a:active { 
+    color: #55B547;
+}
+
 nav{
 	text-align: center;
 	border-bottom: 1px solid #212121;
 }
 
+nav a:link {
+	font-family: 'Varela Round', sans-serif;
+	color: #644C73;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 60px;
+	padding: 10px;
+	margin: 0 8px;
+}
+
 main {
-	width: 720px;
-	float: left;
+	max-width: 1080px;
+	margin: auto;
 }
 
 article {
 	padding:20px 0;
+	border-bottom: 1px solid #212121;
+}
+
+article img{
+	width: 100%;
+	max-width: 660px;
 }
 
 aside {
-	padding: 60px 20px 0 0;
+	padding: 60px 0;
 	float: right;
-	width: 320px;
+	width: 30%;
+}
+
+aside img{
+	width: 100%;
+	max-width: 274px;
+	margin: 40px 0;
 }
 
 footer {
@@ -79,6 +148,38 @@ footer {
 	text-align: center;
 	padding: 10px 0;
 	height: 300px;
+	margin: auto;
+}
+
+footer a:link { 
+    font-family: 'Varela Round', sans-serif;
+	color: #AEAEAE;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	line-height: 60px;
+	padding: 10px;
+	margin: 10px;
+}
+
+footer a:visited { 
+    color: #AEAEAE;
+}
+
+footer a:hover { 
+    color: #FAFAFA;
+}
+
+footer a:active { 
+    color: #AEAEAE;
+}
+
+footer img {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 40px;
+	margin-bottom: 30px;
 }
 
 p {
@@ -97,83 +198,50 @@ ul{
 a{
 	text-decoration:none;
 	color: #644C73;
+	font-weight: 800;
 }
 
-.nav-items{
-	font-family: 'Varela Round', sans-serif;
-	color: #644C73;
-	text-transform: uppercase;
-	font-weight: 600;
-	letter-spacing: 2px;
-	line-height: 60px;
-	padding: 10px;
-	margin-right: 10px;
+a:link { 
+    color: ##644C73;
 }
 
-.top-bar-items{
-	font-family: 'Varela Round', sans-serif;
-	color: #559400;
-	text-transform: uppercase;
-	font-weight: 600;
-	letter-spacing: 2px;
-	line-height: 45px;
-	padding: 0 10px;
-	margin: 0 20px;
+a:visited { 
+    color: #644C73;
 }
 
-.entry{
- 	width:40em;
- 	margin:2em auto;
+a:hover { 
+    color: #81D742;
 }
 
-.top-bar{
-	background: #81D742;
-	height: 45px;
+a:active { 
+    color: #644C73;
 }
 
-.tag{
+.tag {
 	font-size:1em;
 	font-family: 'Varela Round', sans-serif;
 	text-transform: uppercase;
 	display: inline;
-    color: #212121;
-	background: #81D742;  
+	background: #F2EFA4;
+	padding: 2px 4px;
 }
 
-.footer-links {
-	font-family: 'Varela Round', sans-serif;
-	color: #AEAEAE;
-	text-transform: uppercase;
-	font-weight: 600;
-	letter-spacing: 2px;
-	line-height: 60px;
-	padding: 10px;
-	margin: 10px;
-
+#top-bar {
+	background-color: #81D742;
+	height: 45px;
 }
 
-#copyright{
+
+#article-wrapper {
+	width: 60%;
+	float: left;
+	padding:20px;
+	max-width: 700px
+}
+
+#copyright {
 	display: block;
 	font-family: 'Varela Round', sans-serif;
 	font-size: .75em;
 	line-height: 60px;
-}
-
-#logo{
-	display: block;
-	margin-left: auto;
-    margin-right: auto;
-	margin-top: 80px;
-}
-
-#footer-logo{
-	display: block;
-	margin-left: auto;
-    margin-right: auto;
-	margin-top: 40px;
-	margin-bottom: 30px;
-}
-
-#ad-img{
-	margin: 80px 0;
 }
