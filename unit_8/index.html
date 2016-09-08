@@ -2,8 +2,12 @@
 <html>
 <head>
 	<meta charset"="UTF">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Plastic Caskets!</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--[if lt IE 9]>
+          <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+      <![endif]-->
 </head>
 
 <body>
@@ -17,13 +21,14 @@
     </header>
 
 	<nav>
+        <a href="#" id="hamburger">&#9776; Menu</a>
 		<a href="#">Animation</a>
 		<a href="#">Comics</a>
-		<a href="#">Interviews</a> 
+		<a href="#" id="i-break">Interviews</a> 
 		<a href="#">Movies</a>
         <a href="#">Television</a>
         <a href="#">Toys</a>
-        <a href="#">Questionable Content</a>
+        <a href="#" id="qc-break">Questionable Content</a>
 	</nav>
 
 	<main>
@@ -44,7 +49,7 @@
                 <a href="#"> Read More...</a></p>
               <a href="#" class="tag">comics</a>
             </article>
-            <article>
+            <article id="first-post">
                 <h2><a href="#">DUSTY GOODNESS. Watching Horror on VHS.</a></h2>
                 <h3>Aug 23, 2016</h3>
                 <img src="images/pc_vhs_img.png" alt="VHS Gold" title="Jason X is the Best Movie Ever.">
