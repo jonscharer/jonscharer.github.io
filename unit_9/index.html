@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset"="UTF">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Plastic Caskets!</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel=”stylesheet” id=”font-awesome-css” href=”//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css” type=”text/css” media=”screen”>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<!--[if lt IE 9]>
+          <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+      <![endif]-->
+</head>
+
+<body>
+    <header>
+        <div id="top-bar">
+            <a class="top-bar-items" href="#">about</a>
+            <a class="top-bar-items" href="mailto:plasticcaskets@gmail.com">contact</a>
+            <a class="top-bar-items" href="http://tee.pub/lic/cvghwSLexbU">store</a>
+        </div>
+            <img id="logo" src="images/pc_logo.png" alt="Plastic Caskets" title="Welcome.">
+            <h1>&#8226; By Mutants, For Mutants &#8226;</h1>
+    </header>
+
+	<nav>
+        <a href="#" id="hamburger">&#9776; Menu</a>
+		<a href="#">Animation</a>
+		<a href="#">Comics</a>
+		<a href="#" id="i-break">Interviews</a> 
+		<a href="#">Movies</a>
+        <a href="#">Television</a>
+        <a href="#">Toys</a>
+        <a href="#" id="qc-break">Questionable Content</a>
+	</nav>
+
+	<main>
+        <section id="article-wrapper">
+            <article>
+                <h2><a href="#">SWITCH IT UP. The Modular Design of MOTU.</a></h2>
+                <h3>Aug 25, 2016</h3>
+                <img src="images/pc_motu_img.png" alt="He-man winks at you, Baby!" title="Wink.">
+                <p>Walking along a toy vendors table at your favorite dirt mall, you always recognize them at first glance. The frame of the figure gives it away. The body resembles a collection of stones bound together in the shape of a human form more than a realistic depiction. The pronounce bowleggedness, that only worsens with time, is so nicely accentuated by that tiny ballerina waist. You read the f--king title. I am, of course, talkin bout MOTHERF--KIN MASTERS OF THE UNIVERSE.
+                <a href="#"> Read More...</a></p>
+                <a href="#" class="tag">toys</a>
+            </article> 
+            <article>
+                <h2><a href="#">A FRANK ASIDE. 90s Comics are Basically Worthless.</a></h2>
+                <h3>Aug 24, 2016</h3>
+                <img src="images/pc_90s_comics_img.png" alt="Rob Liefeld" title="Rob Liefeld. Best or Worst?">
+                <p>&quot;Hey, you know about comics&quot;, the conversation always starts. Just like that, somebody thinks they are on an episode of f--king Antiques Roadshow. &quot;I got something you should look at&quot;. Soon, I am staring down at some dank, musky-smelling long box. There is some schmuck hovering overhead and grinning at me like I am about to reveal they won the godd--n lottery. First, let us take a few steps back and talk about a little history and capitalism. Let&rsquo;s talk about why your 90s collection of comics is worth JACK S--T!
+                <a href="#"> Read More...</a></p>
+              <a href="#" class="tag">comics</a>
+            </article>
+            <article id="first-post">
+                <h2><a href="#">DUSTY GOODNESS. Watching Horror on VHS.</a></h2>
+                <h3>Aug 23, 2016</h3>
+                <img src="images/pc_vhs_img.png" alt="VHS Gold" title="Jason X is the Best Movie Ever.">
+                <p>You have seen them at horror conventions. The folks who still collect VHS. You have shaken your head and likened them to hipsters. These reactions are understandable and, given the person, not too off base. &quot;Why would anyone pay such high prices for a dead media&quot;, I hear you muttering. Are you ready for the big reveal you AbsoF--kingLoutely saw coming? I am a tape head. Now, I do not want to bring you into the circle. Qualities are limited and that would be foolish of me. What I would like to do though, is tell you why it is enjoyable. I am going to tell you why you should be a TAPE HEAD SYMPATHIZER. 
+                <a href="#"> Read More...</a></p>
+                <a href="#" class="tag">movies</a>
+            </article>
+        </section>
+        <aside>
+        	<iframe class="widgets" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fplasticcaskets%2F&tabs&width=350&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="350" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            <h4>Recent Posts</h4>
+           <ul>
+                <li><a href="#">A FRANK ASIDE.</a></li>
+                <li><a href="#">DUSTY GOODNESS.</a></li>
+            </ul>
+        </aside>
+    </main>
+
+	<footer>
+        <img src="images/pc_footer_logo.png" alt="Plastic Caskets" title="Goodbye.">
+        <span id="copyright">&copy;2016 Plastic Caskets</span>
+	</footer>
+
+	<a href="#" class="back-to-top">Back to Top</div></a>
+	<script>
+	jQuery(document).ready(function() {
+	var offset = 220;
+	var duration = 500;
+	jQuery(window).scroll(function() {
+	if (jQuery(this).scrollTop() > offset) {
+	jQuery('.back-to-top').fadeIn(duration);
+	} else {
+	jQuery('.back-to-top').fadeOut(duration);
+	}
+	});
+
+	jQuery('.back-to-top').click(function(event) {
+	event.preventDefault();
+	jQuery('html, body').animate({scrollTop: 0}, duration);
+	return false;
+	})
+	});
+	</script>
+</body>
+</html>

@@ -1,0 +1,309 @@
+@import url(https://fonts.googleapis.com/css?family=Corben);
+@import url(https://fonts.googleapis.com/css?family=Oldenburg);
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+/* palette = black #212121, pink #D35C86, purple #644C73, teal #40989E, sky blue #82D2E8,
+green #81D742, dark green #55B547, pale yellow #F2EFA4, grey #808080, lite grey #E7E7E7*/
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	background-color: #FAFAFA;
+	color:#212121;
+	position: relative;
+}
+
+h1 {
+	font-family: 'Oldenburg', cursive;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 1.125em;
+	letter-spacing: 1.5px;
+	text-align: center;
+	padding: 10px;
+	margin: 10px 20px 60px;
+}
+
+h2 {
+	font-size:1.5em;
+	margin: 20px 0 0;
+}
+
+h2 a { 
+    color: #212121;
+}
+
+h2 a:hover { 
+    color: #81D742;
+}
+
+h3 {
+	font-size:1em;
+	color: #808080;
+	text-transform: uppercase;
+	margin: 5px 0 10px;
+}
+
+h4 {
+	font-size:1.25em;
+	font-weight: 800;
+	color: #212121; 
+}
+
+header {
+	margin: auto;
+}
+
+header img {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 80px;
+}
+
+header a { 
+    font-family: 'Varela Round', sans-serif;
+    color: #55B547;
+	font-size: .90em;
+	text-transform: uppercase;
+	letter-spacing: .125em;
+	line-height: 3em;
+	padding: 0 14px;
+	margin: 0 20px;
+}
+
+header a:hover { 
+    color: #FAFAFA;
+}
+
+nav {
+	text-align: center;
+	border-bottom: 1px solid #212121;
+}
+
+nav a {
+	font-family: 'Varela Round', sans-serif;
+	color: #644C73;
+	text-transform: uppercase;
+	letter-spacing: .125em;
+	line-height: 4em;
+	padding: 10px;
+	margin: 0 8px;
+}
+
+main {
+	max-width: 1080px;
+	margin: auto;
+}
+
+article {
+	padding:20px 0;
+	border-bottom: 1px solid #212121;
+}
+
+article img{
+	width: 100%;
+	max-width: 660px;
+}
+
+aside {
+	padding: 60px 0;
+	float: right;
+	width: 30%;
+	max-width: 350px;
+}
+
+aside img{
+	width: 100%;
+	max-width: 350px;
+	margin: 25px 0;
+}
+
+footer {
+	clear: both;
+	background: #212121;
+	color: #AEAEAE;
+	text-align: center;
+	padding: 10px 0;
+	height: 220px;
+	margin: auto;
+}
+
+footer img {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+p {
+	line-height: 1.5em;
+	padding: 5px 0;
+	margin: 5px 0;
+}
+
+ul{
+	list-style:none;
+	line-height: 2em;
+	padding: 5px 0;
+	margin: 5px 0;
+}
+
+a { 
+    text-decoration:none;
+	color: #644C73;
+	font-weight: 800;
+    -webkit-transition:color ease-in-out .25s;
+	-moz-transition:color ease-in-out .25s;
+	-o-transition:color ease-in-out .25s;
+	transition:color ease-in-out .25s;
+}
+
+a:hover { 
+    color: #81D742;
+}
+
+.tag {
+	font-size:1em;
+	font-family: 'Varela Round', sans-serif;
+	text-transform: uppercase;
+	display: inline;
+	background: #F2EFA4;
+	padding: 2px 4px;
+}
+
+.widgets {
+	margin-bottom: 50px;
+}
+
+.back-to-top {
+    display:none;
+    position: fixed;
+    bottom: 2em;
+    right: 0px;
+    text-decoration: none;
+    color: #55B547;
+    background-color: rgba(235, 235, 235, 0.85);
+    font-size: 1em;
+    padding: 1em;
+   
+}
+
+.back-to-top:hover {    
+    background-color: rgba(135, 135, 135, 0.50);
+    text-decoration:none;
+    color:#FAFAFA;
+}
+
+#top-bar {
+	background-color: #81D742;
+	height: 45px;
+}
+
+#hamburger {
+	display: none;
+}
+
+#first-post {
+	margin-bottom: 35px;
+}
+
+#article-wrapper {
+	width: 60%;
+	float: left;
+	padding: 20px;
+	max-width: 700px
+}
+
+#copyright {
+	display: block;
+	font-family: 'Varela Round', sans-serif;
+	font-size: .75em;
+}
+
+@media screen and (max-width:1160px){
+	aside {
+		display: none;
+	}
+
+	#article-wrapper {
+		width: 100%;
+		float: none;
+		margin: auto;
+	}
+
+	#qc-break {
+		display: none;
+	}
+
+	#i-break {
+		display: none;
+	}
+
+	nav a {
+		padding: 18px;
+	}
+}
+
+@media screen and (max-width:800px){
+	#top-bar {
+		text-align: center;
+	}
+
+	header img {
+		margin-top: 70px;
+	}
+
+	#hamburger {
+		display: block;
+	}
+
+	nav a {
+		width: auto;
+		padding: 10px;
+		line-height: 1.5em;
+		display: none;
+	}
+
+	nav:hover a {
+		display: block;
+	}
+
+	nav {
+		background-color: #E7E7E7;
+		border-bottom: none;
+	}
+
+	footer {
+		height: 90px;
+	}
+
+	footer img {
+		display: none;
+	}
+}
+
+@media screen and (max-width:415px){
+	h1 {
+		display: none;
+	}
+
+	header img {
+		width: 280px;
+		margin-top: 60px;
+		margin-bottom: 45px;
+	}
+
+	header a { 
+	padding: 0 9px;
+	margin: 0 9px;
+	}
+
+}
