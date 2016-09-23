@@ -239,11 +239,7 @@ a:hover {
 		margin: auto;
 	}
 
-	#qc-break {
-		display: none;
-	}
-
-	#i-break {
+	.nav-item-break {
 		display: none;
 	}
 
