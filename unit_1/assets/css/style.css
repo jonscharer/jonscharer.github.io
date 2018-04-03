@@ -338,7 +338,7 @@ color:#fff !important; }
 }
 
 .home_bg {
-	
+    
     height: 750px;
     position: relative;
 }
@@ -370,7 +370,7 @@ color:#fff !important; }
 
 
 .hero-text {
-	margin-top: 0;
+    margin-top: 0;
 }
 @media only screen and (max-width:768px) { 
 .hero-text {
@@ -399,8 +399,9 @@ margin-top: 0px;
 
 .hero-text h2 {
 color: #fff;
-font-size: 60px;
+font-size: 65px;
 padding-top: 250px;
+
 text-transform: capitalize;
 }
 @media only screen and (max-width:768px) { 
@@ -412,27 +413,27 @@ padding-top:150px;
 }
 @media only screen and (max-width:480px) { 
     .hero-text h2 {
-		font-size: 50px;
+        font-size: 50px;
         line-height: 55px;
     }
 }
 @media only screen and (max-width:414px) { 
     .hero-text h2 {
-		font-size: 45px;
+        font-size: 45px;
         line-height: 50px;
     }
 }
 @media only screen and (max-width:375px) { 
     .hero-text h2 {
         font-size: 40px;
-		line-height: 45px;
+        line-height: 45px;
     }
 }
 @media only screen and (max-width:320px) { 
     .hero-text h2 {
        font-size: 35px;
-	   line-height: 40px;
-	}
+       line-height: 40px;
+    }
 }
 .hero-text p {
 color: #fff;
@@ -471,8 +472,8 @@ transition: all 0.3s ease 0s;
 }
 @media only screen and (max-width:414px) { 
     .app-btn {
-	margin-bottom:30px;
-	margin-right: 0;
+    margin-bottom:30px;
+    margin-right: 0;
 }
 }
 .app-btn:hover{
@@ -571,7 +572,6 @@ width: 50px;
     border-color: #1fac90;
     color: #1fac90;
 }
-
 /*============================*
   04.END ABOUT US DESIGN
  *==========================*/
@@ -1560,6 +1560,7 @@ width: 45px;
 .f_skype{background:#01A4E0;}
 .copyright p {
 color:#000;
+font-size: 12px;
 margin-bottom: 0;
 padding-top: 10px;
 }
